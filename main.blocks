@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="WNhlH/t)JwF0X:X.23Bf" x="44" y="-72"/><block type="device_forever" id="QV!p]B96cWeR%hL!pIB=" x="225" y="20"><statement name="HANDLER"><block type="controls_if" id=".Bb;|{|5f}])QD2C/BV0"><mutation elseif="2" else="1"/><value name="IF0"><shadow type="logic_boolean" disabled="true"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="qzCYPClr$S$HvZ9}WXKa"><field name="NAME">Button.A</field></block></value><statement name="DO0"><block type="basic_show_icon" id="{e!S@8?/~i0fpLHs8x[1"><field name="i">IconNames.Happy</field></block></statement><value name="IF1"><block type="device_get_button2" id="I$ia0I9QOzWQ]GlfDU|s"><field name="NAME">Button.B</field></block></value><statement name="DO1"><block type="basic_show_icon" id="LrvVN[oYFtPZPxc+b$K9"><field name="i">IconNames.Sad</field></block></statement><value name="IF2"><block type="input_logo_is_pressed" id="R;@.ZCSHo/h2MP+M@{WD"/></value><statement name="DO2"><block type="basic_show_icon" id="SLU`XPTb}EYTP$yR9g*)"><field name="i">IconNames.Surprised</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="+mxoJ;cE~|]CTLUImu}x"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field></block></statement></block></statement></block><block type="deviceisgesture" id="OFuxoH7+c!RaG/;SmJ*T" disabled="true" x="376" y="349"><field name="gesture">Gesture.Shake</field></block></xml>
